@@ -5,7 +5,8 @@ module.exports = {
     './contact.html',
     './project.html',
     './projects.html',
-    './resume.html',],
+    './resume.html',
+    './src/**/*.html',],
   theme: {
     extend: {},
   },
