@@ -18,3 +18,13 @@ pages with custom styling and interactive elements.
 |       |-- script.js
 |-- .gitignore
 |-- Project-ReadMe.md
+
+
+| Name         | RGB             | HEX         |
+|--------------|-----------------|-------------|
+| white        | 255,255,255     | #FFFFFF     |
+| black        | 0,0,0           | #000000     |
+| Pumice       | 210, 215, 211   | #d2d7d3     |
+| Jordy Blue   | 137, 196, 244   | #89c4f4     |
+| Cotton Cloth | 250, 244, 211   | #faf4d3     |
+| Melon Melody | 251, 192, 147   | #fbc093     |
