@@ -2,9 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harpreet Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/site.css">
+    <link rel="stylesheet" href="./assets/css/additional.css">
 </head>
-<body>
+<body class="font-sans">
+<header class="bg-amber-400 h-30 flex flex-col items-start relative lg:h-28 md:h-28 xl:h-40 sm:h-20">
 
+    <div class="font-serif text-gray-800 text-3xl ml-5 mt-4 animate-slideInLeft">My Portfolio</div>
+
+    <div id="button" class="flex ml-auto mr-2 mt-2 sm:hidden lg:hidden bg-orange-400 text-white">
+        <button class="focus:outline-none mr-10">
+            <div class="w-8 h-1 bg-slate-600 mb-2"></div>
+            <div class="w-8 h-1 bg-slate-600 mb-2"></div>
+            <div class="w-8 h-1 bg-slate-600 mb-2"></div>
+        </button>
+    </div>
+
+    <ul id="desktopMenuItems" class="flex flex-grow w-full justify-end pr-4 space-x-8 font-bold xl:-mt-6 xl:text-2xl lg:-mt-4 lg:text-xl">
+        <li><a  href="index.html" class=" px-4 py-2 hover:bg-amber-400 inline-block" >Home</a></li>
+        <li><a   href="about.html" class=" inline-block px-4 py-2 hover:bg-amber-400">About Me</a></li>
+        <li><a   href="contact.html" class=" inline-block px-4 py-2 hover:bg-amber-400">Contact</a></li>
+        <li><a   href="project.html" class=" inline-block px-4 py-2 hover:bg-amber-400">Project</a></li>
+        <li><a   href="resume.html" class=" inline-block px-4 py-2 hover:bg-amber-400">Resume</a></li>
+    </ul>
+
+    <ul id="mobileMenuItems" class="hidden bg-gray-100 sm:hidden md:hidden lg:hidden xl:hidden absolute top-0 right-8 mt-16 mr-5">
+
+        <li><a  href="index.html" class=" px-4 py-2 hover:bg-amber-400 inline-block " >Home</a></li>
+        <li><a   href="about.html" class=" inline-block px-4 py-2 hover:bg-amber-400">About Me</a></li>
+        <li><a   href="contact.html" class=" inline-block px-4 py-2 hover:bg-amber-400">Contact</a></li>
+        <li><a   href="project.html" class=" inline-block px-4 py-2 hover:bg-amber-400">Project</a></li>
+        <li><a   href="resume.html" class=" inline-block px-4 py-2 hover:bg-amber-400">Resume</a></li>
+    </ul>
+
+    <script src="./assets/js/script.js"></script>
+
+
+</header>
+<main class="grid grid-cols-1 md:grid-cols-2 gap-4 xl:grid-rows-[auto,1fr,auto] min-h-screen">
+    <div class="flex justify-center items-center">
+        <img src="./assets/img/home.png" class="mx-auto">
+    </div>
+
+    <div class="text-left font-sans mx-6 bg-gradient-to-r from-teal-400 to-teal-600 p-8 rounded-lg shadow-lg">
+        <p class="font-extrabold text-4xl mt-8 xl:mt-10 xl:mb-6 xl:px-6 md:text-3xl md:mt-8 sm:text-2xl sm:mt-6 text-white">
+            Hello, I'm Harpreet, a passionate creator and technology enthusiast.
+        </p>
+        <ul class="text-lg list-disc list-inside mt-6 xl:text-xl xl:p-6 xl:px-8 md:text-md md:mt-6 sm:text-md sm:mt-4 text-gray-100 space-y-4">
+            <li class="mb-4">💻 Exploring the exciting world of programming, where every line of code brings new opportunities to innovate and solve complex problems.</li>
+            <li class="mb-4">🔧 An aspiring software developer, dedicated to mastering my skills and using technology to build effective, real-world solutions.</li>
+            <li>🌱 Constantly learning and growing, eager to collaborate with others and contribute to projects that have a positive impact on society.</li>
+        </ul>
+    </div>
+</main>
+
+<Footer class="bg-slate-600 fixed bottom-0 w-full leading-10">
+    <div class="text-2xl text-center text-white">
+        <p>Copyright IT Developer Harpreet</p>
+    </div>
+</Footer>
 </body>
 </html>
